@@ -2,7 +2,7 @@
   <remote fetch="https://github.com" name="github"/>
   
   <default remote="github" revision="main"/>
-  <project name="setsal" path="setsal"/>
-  <project name="lfs_test" path="lfs_test"/>
+  <project name="setsal/setsal" path="setsal"/>
+  <project name="setsal/lfs_test" path="lfs_test"/>
 
 </manifest>
