@@ -1,0 +1,12 @@
+<manifest>
+  <remote fetch="https://github.com" name="github"/>
+  
+  <default remote="github" revision="main"/>
+  <project name="setsal/setsal" path="setsal">
+	<copyfile src="LICENSE" dest="LICENSEbb" />
+	<copyfile src="LICENSE" dest="../LICENSEbb" />
+	<linkfile src="README.md" dest="README2.md" />
+  </project>
+  <project name="setsal/lfs_test" path="lfs_test"/>
+
+</manifest>
