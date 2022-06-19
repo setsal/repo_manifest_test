@@ -4,8 +4,10 @@
   <default remote="github" revision="main"/>
   <project name="setsal/setsal" path="setsal">
 	<copyfile src="LICENSE" dest="LICENSEbb" />
-	<copyfile src="LICENSE" dest="../LICENSEbb" />
+	<copyfile src="LICENSE" dest="setsal/LICENSEbb" />
+	<copyfile src="LICENSE" dest="aaa/bbb/cccLICENSEbb" />
 	<linkfile src="README.md" dest="README2.md" />
+	<linkfile src="README.md" dest="setsal/README3.md" />
   </project>
   <project name="setsal/lfs_test" path="lfs_test"/>
 
